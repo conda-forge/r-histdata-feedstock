@@ -1,11 +1,11 @@
-About r-histdata
-================
+About r-histdata-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-histdata-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=HistData
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-histdata-feedstock/blob/main/LICENSE.txt)
 
 Summary: The 'HistData' package provides a collection of small data sets that are interesting and important in the history of statistics and data visualization. The goal of the package is to make these available, both for instructional use and for historical research. Some of these present interesting challenges for graphics or analysis in R.
 
