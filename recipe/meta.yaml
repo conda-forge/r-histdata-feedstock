@@ -1,4 +1,4 @@
-{% set version = "0.9-1" %}
+{% set version = "0.9-3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HistData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HistData/HistData_{{ version }}.tar.gz
-  sha256: dca9e9d8eab98fa966de444ee88acd7b3cda88b27dd99e4f258cf5f56b2e00b0
+  sha256: 164579591004ed7a79a727ed4e4a48b989d62fae74b7932b93c84aae45244478
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
