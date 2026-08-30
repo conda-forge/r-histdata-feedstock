@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HistData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HistData/HistData_{{ version }}.tar.gz
-  sha256: a157dd1817b431363d0751576f12c0ffc356750eb0445c9cda91b758ce2b2ab1
+  sha256: 4cfd0c61c6d0631402e90082a2f55ced355efaddcbbf1ca8e254e6cc64692b78
 
 build:
   number: 0
@@ -35,8 +35,8 @@ test:
 about:
   home: https://CRAN.R-project.org/package=HistData
   license: GPL-2.0-or-later
-  summary: The 'HistData' package provides a collection of small data sets that are interesting and important in the history of statistics and data visualization. The goal of the package is to make these available, both for instructional use and for historical research. Some of these present interesting challenges for graphics
-    or analysis in R.
+  summary: The 'HistData' package provides a collection of small data sets that are interesting and important in the history of statistics and data visualization. The goal of the package is to make these available, both for instructional use and for historical research. Some of these present interesting challenges for 
+    graphics or analysis in R.
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
