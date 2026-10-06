@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/HistData_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/HistData/HistData_{{ version }}.tar.gz
-  sha256: 4cfd0c61c6d0631402e90082a2f55ced355efaddcbbf1ca8e254e6cc64692b78
+  sha256: b602f00c07c1d954dba8a00bd4d772aa3f9188554c772f6f677d91a3000ce702
 
 build:
   number: 0
